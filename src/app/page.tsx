@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState<null | Boolean>(null);
+  const [result, setResult] = useState<null | boolean>(null);
   const [error, setError] = useState("");
 
   const handleScan = async () => {
@@ -25,7 +25,7 @@ export default function Home() {
       } else {
         setError(data.message || "Error scanning the site");
       }
-    } catch (err:any) {
+    } catch (err) {
       console.error(err)
       setError("Something went wrong.");
     }

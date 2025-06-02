@@ -57,7 +57,27 @@ export default function Home() {
                 <span role="img" aria-label="cookie" className="text-blue-700">
                   (i) 🍪
                 </span>
-                <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-normal w-64 rounded bg-gray-800 px-3 py-2 text-sm text-white opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                <div className="
+      absolute 
+      left-1/2 
+      transform 
+      -translate-x-1/2 
+      max-w-xs sm:max-w-sm 
+      rounded 
+      bg-gray-800 
+      px-3 py-2 
+      text-sm 
+      text-white 
+      opacity-0 
+      group-hover:opacity-100 
+      transition-opacity 
+      pointer-events-none 
+      z-10
+      whitespace-normal
+      bottom-auto sm:top-full sm:mt-0
+      mt-2
+      sm:-translate-y-0
+      ">
                   This site uses cookies and shows a consent banner to inform users about data collection.
                 </div>
               </div>{" "}

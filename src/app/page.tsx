@@ -66,7 +66,7 @@ export default function Home() {
       rounded 
       bg-gray-800 
       px-3 py-2 
-      sm:ml-4
+      
       text-sm 
       text-white 
       opacity-0 
@@ -76,7 +76,7 @@ export default function Home() {
       z-10
       whitespace-normal
       bottom-auto sm:top-full sm:mt-0
-      mt-2
+      mt-4
       sm:-translate-y-0
       ">
                   This site uses cookies and shows a consent banner to inform users about data collection.

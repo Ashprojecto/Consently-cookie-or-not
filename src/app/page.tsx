@@ -65,7 +65,7 @@ export default function Home() {
       max-w-xs sm:max-w-sm 
       rounded 
       bg-gray-800 
-      px-3 py-2 
+      px-4 py-2 
       
       text-sm 
       text-white 

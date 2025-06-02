@@ -66,6 +66,7 @@ export default function Home() {
       rounded 
       bg-gray-800 
       px-3 py-2 
+      sm:ml-4
       text-sm 
       text-white 
       opacity-0 

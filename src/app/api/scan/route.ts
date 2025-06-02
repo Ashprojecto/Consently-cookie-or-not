@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
         const found = bannerBySelector || bannerByText
         return NextResponse.json({ found })
     } catch (error) {
-
+        console.log(error)
         return NextResponse.json({ message: "Server error" }, { status: 500 })
     }
 }
